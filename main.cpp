@@ -32,11 +32,10 @@ void PrintArr(int *arr, int n)
 
 int main()
 {
-	int arr[] = { 7, 11, 5, 14, 8, 52, 17};
+	int arr[] = { 7, 11, 5, 14, 8, 57, 17};
 	int n = sizeof(arr) / sizeof(arr[0]);
 
 	InsertionSort(arr, n);
 	PrintArr(arr, n);
 
-	system("pause");
 }
